@@ -1,15 +1,15 @@
-# TescoCreate AI 🎨✨
+# Zylo 🎨✨
 
-> **Intelligent Retail Media Creative Builder**
+> **AI-Powered Retail Media Creative Builder**
 
-An AI-powered visual creative builder that democratizes professional-quality retail media creation. Combines an intuitive drag-and-drop interface with intelligent AI assistants for compliance validation, creative suggestions, and automated optimization.
+An AI-powered visual creative builder that combines an intuitive drag-and-drop interface with intelligent AI assistants for compliance validation, creative suggestions, and automated optimization.
 
 ---
 
 ## 🌟 Features
 
 - **🎨 AI-Powered Design**: Intelligent layout suggestions, color palettes, and creative variants
-- **✅ Real-time Compliance**: Automatic validation against Tesco retail media guidelines
+- **✅ Real-time Compliance**: Automatic validation against retail media guidelines
 - **🖼️ Advanced Image Processing**: Background removal, smart cropping, color extraction (GPU-accelerated)
 - **✨ Creative Generation**: AI-powered headline and copy suggestions using Gemini/NVIDIA APIs
 - **📐 Multi-Format Export**: Optimized exports for Facebook, Instagram, and Stories (1:1, 4:5, 9:16)
@@ -20,7 +20,7 @@ An AI-powered visual creative builder that democratizes professional-quality ret
 ## 🏗️ Architecture
 
 ```
-📦 TescoCreate AI (Monorepo)
+📦 Zylo (Monorepo)
 ├── apps/web/              Next.js 14 frontend (tRPC, Fabric.js canvas)
 ├── services/
 │   ├── compliance/        FastAPI - NLP compliance validation
@@ -42,7 +42,7 @@ An AI-powered visual creative builder that democratizes professional-quality ret
 - Prisma ORM
 
 **AI/ML Services:**
-- FastAPI (Python 3.11)
+- FastAPI (Python 3.10+)
 - PyTorch (GPU-accelerated)
 - Transformers (BERT, CLIP)
 - REMBG (background removal)
@@ -60,7 +60,7 @@ An AI-powered visual creative builder that democratizes professional-quality ret
 ### Required Software
 
 1. **Node.js 20+** - [Download](https://nodejs.org/)
-2. **Python 3.11+** - [Download](https://www.python.org/downloads/)
+2. **Python 3.10+** - [Download](https://www.python.org/downloads/)
 3. **pnpm** - Install: `npm install -g pnpm`
 4. **Git** - [Download](https://git-scm.com/)
 
@@ -84,8 +84,8 @@ An AI-powered visual creative builder that democratizes professional-quality ret
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/tesco/create-ai.git
-cd create-ai
+git clone https://github.com/debashish17/Zylo.git
+cd Zylo
 ```
 
 ### 2. Automated Setup (Windows)
@@ -216,13 +216,13 @@ python scripts/test-gpu.py
 
 Expected output:
 ```
-✅ PyTorch installed: 2.2.0+cu121
-✅ CUDA available: True
-✅ CUDA version: 12.1
-✅ GPU device: NVIDIA GeForce RTX 4050
-✅ GPU memory: 6.0 GB
-✅ GPU computation successful!
-✅ GPU speedup: 7.2x faster than CPU
+✓ PyTorch installed: 2.2.0+cu121
+✓ CUDA available: True
+✓ CUDA version: 12.1
+✓ GPU device: NVIDIA GeForce RTX 4050
+✓ GPU memory: 6.0 GB
+✓ GPU computation successful!
+✓ GPU speedup: 7.2x faster than CPU
 ```
 
 ---
@@ -230,7 +230,7 @@ Expected output:
 ## 📁 Project Structure
 
 ```
-tesco-create-ai/
+zylo/
 ├── apps/
 │   └── web/                          # Next.js frontend
 │       ├── src/
@@ -348,29 +348,6 @@ pnpm typecheck
 
 ---
 
-## 🎨 Usage Guide
-
-### Creating Your First Creative
-
-1. **Start Services**: Run `.\scripts\dev.ps1`
-2. **Open App**: http://localhost:3000
-3. **Click** "Create New Campaign"
-4. **Choose Format**: Square (1:1), Portrait (4:5), or Stories (9:16)
-5. **Upload Assets**:
-   - Packshots (product images)
-   - Brand logos
-   - Backgrounds (optional)
-6. **Drag & Drop**: Arrange elements on canvas
-7. **Add Text**: Click to add headlines/subheads
-8. **AI Assist**:
-   - Background Removal: Right-click image > Remove Background
-   - Color Extraction: Upload logo > Extract Colors
-   - Headline Suggestions: Click "AI Suggest" (requires Gemini API key)
-9. **Compliance Check**: Real-time validation in sidebar
-10. **Export**: Click "Export" > Select formats > Download
-
----
-
 ## 🧪 Testing
 
 ### Manual Testing
@@ -470,28 +447,6 @@ Total: ~3GB typical, 5GB peak
 
 ---
 
-## 🚢 Deployment
-
-### Deploying to Production
-
-**Frontend (Next.js):**
-- Vercel (recommended): `vercel deploy`
-- Netlify, Cloudflare Pages, AWS Amplify
-
-**Python Services:**
-- Railway: `railway up`
-- Render, Fly.io, Google Cloud Run
-
-**Database:**
-- Already on Supabase cloud ✅
-
-**Storage:**
-- Already on Supabase Storage ✅
-
-See `docs/DEPLOYMENT.md` for detailed instructions (TODO).
-
----
-
 ## 📚 Additional Resources
 
 - **API Documentation**:
@@ -500,24 +455,18 @@ See `docs/DEPLOYMENT.md` for detailed instructions (TODO).
   - Creative AI: http://localhost:8002/docs
 
 - **Database Schema**: `apps/web/prisma/schema.prisma`
-- **Architecture Diagram**: `docs/ARCHITECTURE.md` (TODO)
 
 ---
 
 ## 🤝 Contributing
 
-This is a private project for Tesco. For internal contributions:
-
-1. Create feature branch: `git checkout -b feature/amazing-feature`
-2. Commit changes: `git commit -m 'Add amazing feature'`
-3. Push: `git push origin feature/amazing-feature`
-4. Create Pull Request
+See [CONTRIBUTING.md](CONTRIBUTING.md) for development guidelines.
 
 ---
 
 ## 📄 License
 
-Proprietary - Tesco PLC
+Proprietary - All Rights Reserved
 
 ---
 
@@ -551,12 +500,4 @@ Proprietary - Tesco PLC
 
 ---
 
-## 💬 Support
-
-For questions or issues:
-- **Internal Slack**: #tesco-create-ai
-- **Email**: create-ai-team@tesco.com
-
----
-
-**Built with ❤️ by the Tesco Retail Media Team**
+**Built with ❤️ using Next.js, Python, and AI**

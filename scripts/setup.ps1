@@ -1,6 +1,6 @@
-# TescoCreate AI - Complete Setup Script (Windows)
+# Zylo - Complete Setup Script (Windows)
 
-Write-Host "TescoCreate AI - Complete Setup" -ForegroundColor Green
+Write-Host "Zylo - Complete Setup" -ForegroundColor Green
 Write-Host ("=" * 60)
 
 # Step 1: Install Node.js dependencies

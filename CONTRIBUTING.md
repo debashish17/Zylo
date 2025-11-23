@@ -1,4 +1,4 @@
-# Contributing to TescoCreate AI
+# Contributing to Zylo
 
 ## Development Setup
 
@@ -63,4 +63,4 @@ git push origin feature/your-feature-name
 
 ## Questions?
 
-Contact the team on Slack: #tesco-create-ai
+Open an issue or reach out to the maintainers.

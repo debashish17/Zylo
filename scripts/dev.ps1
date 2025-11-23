@@ -1,7 +1,7 @@
-# TescoCreate AI - Development Environment Launcher (Windows)
+# Zylo - Development Environment Launcher (Windows)
 # Interactive script to start selected services
 
-Write-Host "TescoCreate AI Development Environment" -ForegroundColor Green
+Write-Host "Zylo Development Environment" -ForegroundColor Green
 Write-Host ""
 
 # Function to check if command exists
