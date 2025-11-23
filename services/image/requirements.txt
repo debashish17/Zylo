@@ -1,0 +1,25 @@
+fastapi==0.109.2
+uvicorn[standard]==0.27.1
+pydantic==2.6.1
+python-multipart==0.0.9
+
+# Image processing
+Pillow==10.2.0
+rembg[gpu]==2.0.54
+opencv-python==4.9.0.80
+
+# ML models
+torch==2.2.0
+torchvision==0.17.0
+transformers==4.37.2
+
+# Image enhancement
+# realesrgan==0.3.0  # Uncomment for upscaling feature
+# basicsr==1.4.2
+
+# Color extraction
+colorthief==0.2.1
+
+# Utilities
+python-dotenv==1.0.1
+httpx==0.26.0
