@@ -68,7 +68,7 @@ Write-Host "  2. Get API keys:"
 Write-Host "     - Gemini: https://makersuite.google.com/app/apikey"
 Write-Host "     - NVIDIA NIM: https://build.nvidia.com/"
 Write-Host "  3. Set up Supabase database:"
-Write-Host "     cd apps/web && pnpm prisma db push"
+Write-Host '     cd apps/web && pnpm prisma db push'
 Write-Host "  4. Start development:"
-Write-Host "     .\scripts\dev.ps1"
+Write-Host '     .\scripts\dev.ps1'
 Write-Host ""
