@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 app = FastAPI(
-    title="TescoCreate AI - Image API",
+    title="Zylo - Image API",
     description="AI-powered image processing for creative assets",
     version="0.1.0"
 )

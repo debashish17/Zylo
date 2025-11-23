@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-GPU Verification Script for TescoCreate AI
+GPU Verification Script for Zylo
 Tests CUDA availability and GPU performance
 """
 

@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 app = FastAPI(
-    title="TescoCreate AI - Creative API",
+    title="Zylo - Creative API",
     description="AI-powered creative generation using LLMs",
     version="0.1.0"
 )

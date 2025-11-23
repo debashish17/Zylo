@@ -6,8 +6,8 @@ import { Providers } from './providers'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'TescoCreate AI - Retail Media Creative Builder',
-  description: 'AI-powered creative builder for Tesco retail media campaigns',
+  title: 'Zylo - AI Creative Builder',
+  description: 'AI-powered retail media creative builder with compliance validation',
 }
 
 export default function RootLayout({

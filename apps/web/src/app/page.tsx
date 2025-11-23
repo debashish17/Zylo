@@ -7,11 +7,11 @@ export default function HomePage() {
       <div className="z-10 max-w-5xl w-full items-center justify-center font-mono text-sm">
         <div className="text-center space-y-8">
           <h1 className="text-6xl font-bold tracking-tight">
-            TescoCreate <span className="text-primary">AI</span>
+            <span className="text-primary">Zylo</span>
           </h1>
 
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Intelligent Retail Media Creative Builder
+            AI-Powered Retail Media Creative Builder
           </p>
 
           <div className="flex gap-4 justify-center">

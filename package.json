@@ -1,8 +1,8 @@
 {
-  "name": "tesco-create-ai",
+  "name": "zylo",
   "version": "0.1.0",
   "private": true,
-  "description": "AI-powered retail media creative builder for Tesco",
+  "description": "AI-powered retail media creative builder",
   "engines": {
     "node": ">=20.0.0",
     "pnpm": ">=8.0.0"

@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 app = FastAPI(
-    title="TescoCreate AI - Compliance API",
+    title="Zylo - Compliance API",
     description="Real-time compliance validation for retail media creatives",
     version="0.1.0"
 )
